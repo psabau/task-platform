@@ -1,0 +1,80 @@
+############################
+# Node / JavaScript
+############################
+
+# Dependencies (all microservices + React apps)
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Test / coverage output
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.tmp/
+tmp/
+
+############################
+# Build artifacts
+############################
+
+# Vite / React builds
+dist/
+build/
+
+# Storybook or other UI builds
+storybook-static/
+
+############################
+# Environment & secrets
+############################
+
+.env
+.env.*
+!.env.example
+
+############################
+# OS / Editor junk
+############################
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+############################
+# Docker / DB (optional)
+############################
+
+postgres-data/
+db-data/
+docker-data/
+
+docker-compose.override.yml
+
+############################
+# Misc
+############################
+
+.yarn/
+.pnp/
+.pnp.js
+.turbo/
