@@ -25,11 +25,6 @@ This illustrates three core security concepts:
 - **Centralised verification** – API Gateway validates tokens on all protected routes.
 - **Authorisation** – Task Service enforces that each user only sees and modifies their own tasks.
 
-The detailed explanation is in:
-
-- `docs/tutorial-securing-api-tasks-focused.docx`
-
----
 
 ## 🧱 Architecture Overview
 
